@@ -1,0 +1,212 @@
+@charset "UTF-8";
+    @font-face
+    {
+        font-family: "news";
+        src: url("./source/THE뉴스속보.ttf"),format("truetype");
+        font-style: normal;
+        font-weight: normal;
+    }
+    .header_nav
+    {
+        border-radius: 0px;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        z-index: 200;
+    }
+    .header_gap
+    {
+        float: left;
+    }
+    .header_navbar
+    {
+        background-color: red;
+        float: left;
+    }
+    .header_logo
+    {
+        height: 30px;
+        float: left;
+        background-color: red;
+    }
+    .nav-a
+    {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    .nav-a:link
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .nav-a:visited
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .nav-a:hover
+    {
+        color: white;
+        text-decoration: none;
+    }
+   .main_img_area
+   {
+       width: 100%;
+       height: 600px;
+   }
+   .main_img
+   {
+       width: 100%;
+       height: 600px;
+       position: absolute;
+       z-index: -100;
+   }
+   .main_img_text
+   {
+       width: 100%;
+       height:60px;
+       text-align: center;
+       font-family: "news";
+       font-size: 40px;
+       color:white;
+       position: absolute;
+       top: 320px;
+       z-index: 1;
+   }
+   .search_condition_local, .search_condition_service
+   {
+        width: 50%;
+        height: 600px;
+        text-align: center;
+        font-family: "news";
+        font-size: 40px;
+        color:white;
+        display:none;
+        cursor:pointer;
+        position: absolute;
+        top: 320px;
+        right:0;
+        z-index: 2;
+   }
+   .search_condition_local
+   {
+        left:0;
+   }
+   .local_search
+   {
+        width: 80%;
+        height: 600px;
+        text-align: center;
+        font-family: "news";
+        font-size: 40px;
+        color:white;
+        display:none;
+        position: absolute;
+        top: 60px;
+        left:10%;
+        z-index: 3;
+   }
+   .local_1, .service_1, .local_2, .service_2, .guid
+   {
+       width: 30%;
+       height: 580px;
+       display:none;
+       overflow:scroll;
+       float: left;
+       position:relative;
+   }
+   .guid
+   {
+        text-align: center;
+        font-family: "news";
+        font-size: 20px;
+        color:white;
+   }
+   .local_1::-webkit-scrollbar, .local_2::-webkit-scrollbar, .service_1::-webkit-scrollbar, .service_2::-webkit-scrollbar, .guid::-webkit-scrollbar
+   {
+        display:none;
+   }
+   .local_1>a, .local_2>a, .service_1>a, .service_2>a
+   {
+       display:block;
+       text-align: center;
+       font-family: "news";
+       font-size: 30px;
+       color:white;
+   }
+   .search_box
+   {
+       width: 80%;
+       height: 25px;
+       float: left;
+   }
+   .estimate_title_area
+   {
+       height: 50px;
+       margin-top: 5px;
+   }
+   .estimate_title
+   {
+        width:50%;
+        height: 50px;
+        text-align: center;
+        font-size : 40px;
+        font-weight : bolder;
+   }
+   .estimate_area
+   {
+       height:300px;
+   }
+   .estimate_info_area
+   {
+       width:100%;
+       height:300px;
+       background-color: gray;
+       margin-top: 10px;
+   }
+   .estimate_img
+   {
+       width: 100%;
+       height:200px;
+   }
+   .estimate_title
+   {
+       width:100%;
+       height:100px;
+   }
+   .recommend_service_title_area
+   {
+       height: 50px;
+       margin-top: 5px;
+   }
+   .recommend_service_title
+   {
+        width:50%;
+        height: 50px;
+        text-align: center;
+        font-size : 40px;
+        font-weight : bolder;
+   }
+   .recommend_service_area
+   {
+       height:300px;
+   }
+   .recommend_service_info_area
+   {
+       width:100%;
+       height:300px;
+       background-color: gray;
+       margin-top: 10px;
+   }
+   .recommend_service_img
+   {
+       width: 100%;
+       height:200px;
+   }
+   .recommend_service_title
+   {
+       width:100%;
+       height:100px;
+   }

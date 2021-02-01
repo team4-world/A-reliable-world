@@ -1,0 +1,135 @@
+@charset "UTF-8";
+    @font-face
+    {
+        font-family: "news";
+        src: url("./source/THE뉴스속보.ttf"),format("truetype");
+        font-style: normal;
+        font-weight: normal;
+    }
+    .header_nav
+    {
+        border-radius: 0px;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        z-index: 200;
+    }
+    .header_gap
+    {
+        float: left;
+    }
+    .header_navbar
+    {
+        background-color: red;
+        float: left;
+    }
+    .header_logo
+    {
+        height: 30px;
+        float: left;
+        background-color: red;
+    }
+    .nav-a
+    {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    .nav-a:link
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .nav-a:visited
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .nav-a:hover
+    {
+        color: white;
+        text-decoration: none;
+    }
+   .line1
+   {
+       height:150px;
+       width:100%;
+   }
+   .form_gap1
+   {
+       width: 20%;
+       height: 100px;
+       display:inline;
+       float:left;
+   }
+   .input_info
+   {
+       width: 35%;
+       display:inline;
+       float:left;
+       margin-top: 30px;
+   }
+   .form_gap2
+   {
+       width: 10%;
+       height: 100px;
+       display:inline;
+       float:left;
+   }
+   .login_button
+   {
+       width: 35%;
+       display:inline;
+       float:left;
+   }
+   .login_button>button
+   {
+       margin-top: 30px;
+       width: 40%;
+       height: 100px;
+   }
+   .line2
+   {
+       height: 50px;
+       width:100%;
+   }
+   .checking_point
+   {
+       height: 50px;
+       width:100%;
+   }
+   .form-check
+   {
+        display:inline;
+        float:left;
+        height:50px;
+        width:33%;
+        text-align: center;
+   }
+   .line3
+   {
+       height: 50px;
+       width:100%;
+   }
+   .line4
+   {
+       height: 50px;
+       width:100%;
+   }
+   .form_area
+   {
+       border-radius: 20px;
+       background: linear-gradient(to bottom, gray, rgb(243, 243, 243));
+       width:80%;
+       display:inline;
+   }
+   legend
+   {
+       border:none;
+   }
+   .form-control
+   {
+       border: 2px solid;
+       border-color: black;
+   }

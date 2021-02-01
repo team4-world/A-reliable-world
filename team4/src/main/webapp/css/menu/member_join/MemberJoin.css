@@ -1,0 +1,100 @@
+@charset "UTF-8";
+    @font-face
+    {
+        font-family: "news";
+        src: url("/THE뉴스속보.ttf"),format("truetype");
+        font-style: normal;
+        font-weight: normal;
+    }
+    .header_nav
+    {
+        border-radius: 0px;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        z-index: 200;
+    }
+    .header_gap
+    {
+        float: left;
+    }
+    .header_navbar
+    {
+        background-color: red;
+        float: left;
+    }
+    .header_logo
+    {
+        height: 30px;
+        float: left;
+        background-color: red;
+    }
+    .nav-a
+    {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    .nav-a:link
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .nav-a:visited
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .nav-a:hover
+    {
+        color: white;
+        text-decoration: none;
+    }
+   .join_choice_provider, .join_choice_consumer
+   {
+        width:50%;
+        height:50px;
+        float: left;
+        background-color:aqua;
+   }
+   .join_area_gap
+   {
+       width: 10%;
+       height:500px;
+       float: left;
+   }
+   .join_area
+   {
+       border-radius: 20px;
+       background: linear-gradient(to bottom, gray, rgb(243, 243, 243));
+       width:80%;
+       height:500px;
+       float: left;
+   }
+   form>div.form-group
+   {
+       width:100%;
+       height: 20px;
+   }
+   .form-group-gap
+   {
+       width:100%;
+       height: 10px;
+   }
+   .form-group-last-gap, .form-group-first-gap
+   {
+       width:100%;
+       height: 20px;
+   }
+   .border1
+   {
+       border:1px solid;
+       border-color: black;
+       background-color:gray;
+   }
+   .border2
+   {
+       border:1px solid;
+       border-color: black;
+   }

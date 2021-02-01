@@ -1,0 +1,100 @@
+@charset "UTF-8";
+	@font-face
+    {
+        font-family: "news";
+        src: url("./source/THE뉴스속보.ttf"),format("truetype");
+        font-style: normal;
+        font-weight: normal;
+    }
+    .header_nav
+    {
+        border-radius: 0px;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        z-index: 200;
+    }
+    .header_gap
+    {
+        float: left;
+    }
+    .header_navbar
+    {
+        background-color: red;
+        float: left;
+    }
+    .header_logo
+    {
+        height: 30px;
+        float: left;
+        background-color: red;
+    }
+    .nav-a
+    {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    .nav-a:link
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .nav-a:visited
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .nav-a:hover
+    {
+        color: white;
+        text-decoration: none;
+    }
+   .border1
+   {
+       border:1px solid;
+       border-color: black;
+       background-color:gray;
+   }
+   .border2
+   {
+       border:1px solid;
+       border-color: black;
+   }
+   .discussion_area_gap, .recommend_area_gap
+   {
+       height:50px;
+       background-color: gray;
+   }
+   .service_discussion, .service_recommend
+   {
+       height:420px;
+       background-color:red;
+   }
+   .service_package_title
+   {
+       width:100%;
+       height:50px;
+       background-color:aqua;
+   }
+   .service_package_index_area
+   {
+       width:100%;
+       height:280px;
+       background-color:coral;
+   }
+   .pservice_package_index
+   {
+       width:100%;
+       height:20px;
+       padding:0;
+       margin:0;
+       border:1px solid;
+   }
+   .service_package_content
+   {
+       width:100%;
+       height:70px;
+       background-color:blue;
+   }
